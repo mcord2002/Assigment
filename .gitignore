@@ -5,9 +5,8 @@ test-results-detailed.json
 .DS_Store
 dist/
 build/
-*.xlsx
-!Test_Cases_Template.xlsx
 .env
 .env.local
 package-lock.json
 .playwright/
+
