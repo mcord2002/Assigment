@@ -1,0 +1,1881 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\menuw\\OneDrive\\Desktop\\ASssigment_1\\playwright-tests\\playwright.config.js",
+    "rootDir": "C:/Users/menuw/OneDrive/Desktop/ASssigment_1/playwright-tests/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/menuw/OneDrive/Desktop/ASssigment_1/playwright-tests/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/menuw/OneDrive/Desktop/ASssigment_1/playwright-tests/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*test.js"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ],
+      [
+        "list",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "swifttranslator.test.js",
+      "file": "swifttranslator.test.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Swift Translator - Positive Functional Tests",
+          "file": "swifttranslator.test.js",
+          "line": 12,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Pos_Fun_0001: Simple sentence - daily activity",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "test-result",
+                      "description": "Input: \"mama gedhara yanavaa\"\nExpected: \"මම ගෙදර යනවා\"\nActual: \"\"\nCoverage: Daily language usage | Simple sentence | S (≤30 characters) | Accuracy validation"
+                    },
+                    {
+                      "type": "warning",
+                      "description": "No output was generated"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4896,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:50:44.084Z",
+                      "annotations": [
+                        {
+                          "type": "test-result",
+                          "description": "Input: \"mama gedhara yanavaa\"\nExpected: \"මම ගෙදර යනවා\"\nActual: \"\"\nCoverage: Daily language usage | Simple sentence | S (≤30 characters) | Accuracy validation"
+                        },
+                        {
+                          "type": "warning",
+                          "description": "No output was generated"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0b08bb464df112f08ad3-33813968367c81e960de",
+              "file": "swifttranslator.test.js",
+              "line": 22,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0002: Simple sentence - eating",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "test-result",
+                      "description": "Input: \"mata bath oonee\"\nExpected: \"මට බත් ඕනේ\"\nActual: \"\"\nCoverage: Daily language usage | Simple sentence | S (≤30 characters) | Accuracy validation"
+                    },
+                    {
+                      "type": "warning",
+                      "description": "No output was generated"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4956,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:50:49.239Z",
+                      "annotations": [
+                        {
+                          "type": "test-result",
+                          "description": "Input: \"mata bath oonee\"\nExpected: \"මට බත් ඕනේ\"\nActual: \"\"\nCoverage: Daily language usage | Simple sentence | S (≤30 characters) | Accuracy validation"
+                        },
+                        {
+                          "type": "warning",
+                          "description": "No output was generated"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0b08bb464df112f08ad3-ffb8dc2a646e2a7ea5e2",
+              "file": "swifttranslator.test.js",
+              "line": 22,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0003: Compound sentence with conjunction",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "test-result",
+                      "description": "Input: \"mama gedhara yanavaa saha oyaa enavadha\"\nExpected: \"මම ගෙදර යනවා සහ ඔයා එනවාද\"\nActual: \"\"\nCoverage: Daily language usage | Compound sentence | M (31–299 characters) | Accuracy validation"
+                    },
+                    {
+                      "type": "warning",
+                      "description": "No output was generated"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4990,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:50:54.208Z",
+                      "annotations": [
+                        {
+                          "type": "test-result",
+                          "description": "Input: \"mama gedhara yanavaa saha oyaa enavadha\"\nExpected: \"මම ගෙදර යනවා සහ ඔයා එනවාද\"\nActual: \"\"\nCoverage: Daily language usage | Compound sentence | M (31–299 characters) | Accuracy validation"
+                        },
+                        {
+                          "type": "warning",
+                          "description": "No output was generated"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0b08bb464df112f08ad3-b7c0122020c458eb0f3e",
+              "file": "swifttranslator.test.js",
+              "line": 22,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0004: Complex sentence with condition",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "test-result",
+                      "description": "Input: \"oya enavaanam mama balaa innavaa\"\nExpected: \"ඔයා එනවනම් මම බලා ඉන්නවා\"\nActual: \"\"\nCoverage: Daily language usage | Complex sentence | M (31–299 characters) | Accuracy validation"
+                    },
+                    {
+                      "type": "warning",
+                      "description": "No output was generated"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4912,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:50:59.212Z",
+                      "annotations": [
+                        {
+                          "type": "test-result",
+                          "description": "Input: \"oya enavaanam mama balaa innavaa\"\nExpected: \"ඔයා එනවනම් මම බලා ඉන්නවා\"\nActual: \"\"\nCoverage: Daily language usage | Complex sentence | M (31–299 characters) | Accuracy validation"
+                        },
+                        {
+                          "type": "warning",
+                          "description": "No output was generated"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0b08bb464df112f08ad3-9205b17c7619f6d97868",
+              "file": "swifttranslator.test.js",
+              "line": 22,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0005: Interrogative - how are you",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "test-result",
+                      "description": "Input: \"oyaata kohomadha?\"\nExpected: \"ඔයාට කොහොමද?\"\nActual: \"\"\nCoverage: Greeting / request / response | Interrogative (question) | S (≤30 characters) | Accuracy validation"
+                    },
+                    {
+                      "type": "warning",
+                      "description": "No output was generated"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4903,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:51:04.139Z",
+                      "annotations": [
+                        {
+                          "type": "test-result",
+                          "description": "Input: \"oyaata kohomadha?\"\nExpected: \"ඔයාට කොහොමද?\"\nActual: \"\"\nCoverage: Greeting / request / response | Interrogative (question) | S (≤30 characters) | Accuracy validation"
+                        },
+                        {
+                          "type": "warning",
+                          "description": "No output was generated"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0b08bb464df112f08ad3-0902c4d60f2960f8c98b",
+              "file": "swifttranslator.test.js",
+              "line": 22,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0006: Imperative - command to go",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "test-result",
+                      "description": "Input: \"vahaama enna\"\nExpected: \"වහාම එන්න\"\nActual: \"\"\nCoverage: Greeting / request / response | Imperative (command) | S (≤30 characters) | Accuracy validation"
+                    },
+                    {
+                      "type": "warning",
+                      "description": "No output was generated"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4884,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:51:09.057Z",
+                      "annotations": [
+                        {
+                          "type": "test-result",
+                          "description": "Input: \"vahaama enna\"\nExpected: \"වහාම එන්න\"\nActual: \"\"\nCoverage: Greeting / request / response | Imperative (command) | S (≤30 characters) | Accuracy validation"
+                        },
+                        {
+                          "type": "warning",
+                          "description": "No output was generated"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0b08bb464df112f08ad3-1167a2b94516aee197d3",
+              "file": "swifttranslator.test.js",
+              "line": 22,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0007: Interrogative - complex question",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "test-result",
+                      "description": "Input: \"meeka hariyata vaeda karanavaadha?\"\nExpected: \"මේක හරියට වැඩ කරනවාද?\"\nActual: \"\"\nCoverage: Daily language usage | Interrogative (question) | M (31–299 characters) | Accuracy validation"
+                    },
+                    {
+                      "type": "warning",
+                      "description": "No output was generated"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4814,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:51:13.958Z",
+                      "annotations": [
+                        {
+                          "type": "test-result",
+                          "description": "Input: \"meeka hariyata vaeda karanavaadha?\"\nExpected: \"මේක හරියට වැඩ කරනවාද?\"\nActual: \"\"\nCoverage: Daily language usage | Interrogative (question) | M (31–299 characters) | Accuracy validation"
+                        },
+                        {
+                          "type": "warning",
+                          "description": "No output was generated"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0b08bb464df112f08ad3-faf97c2263c9f2cb6fd7",
+              "file": "swifttranslator.test.js",
+              "line": 22,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0008: Positive sentence - present tense",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "test-result",
+                      "description": "Input: \"mama ehema karanavaa\"\nExpected: \"මම එහෙම කරනවා\"\nActual: \"\"\nCoverage: Daily language usage | Present tense | S (≤30 characters) | Accuracy validation"
+                    },
+                    {
+                      "type": "warning",
+                      "description": "No output was generated"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4736,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:51:18.790Z",
+                      "annotations": [
+                        {
+                          "type": "test-result",
+                          "description": "Input: \"mama ehema karanavaa\"\nExpected: \"මම එහෙම කරනවා\"\nActual: \"\"\nCoverage: Daily language usage | Present tense | S (≤30 characters) | Accuracy validation"
+                        },
+                        {
+                          "type": "warning",
+                          "description": "No output was generated"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0b08bb464df112f08ad3-7900885bad96dd3f71b2",
+              "file": "swifttranslator.test.js",
+              "line": 22,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0009: Past tense - went home",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "test-result",
+                      "description": "Input: \"mama iiyee gedhara giyaa\"\nExpected: \"මම ඉයේ ගෙදර ගියා\"\nActual: \"\"\nCoverage: Daily language usage | Past tense | S (≤30 characters) | Accuracy validation"
+                    },
+                    {
+                      "type": "warning",
+                      "description": "No output was generated"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4822,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:51:23.539Z",
+                      "annotations": [
+                        {
+                          "type": "test-result",
+                          "description": "Input: \"mama iiyee gedhara giyaa\"\nExpected: \"මම ඉයේ ගෙදර ගියා\"\nActual: \"\"\nCoverage: Daily language usage | Past tense | S (≤30 characters) | Accuracy validation"
+                        },
+                        {
+                          "type": "warning",
+                          "description": "No output was generated"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0b08bb464df112f08ad3-a14da08b7180377ee470",
+              "file": "swifttranslator.test.js",
+              "line": 22,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0010: Future tense - will go home",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "test-result",
+                      "description": "Input: \"mama gedhara yamu\"\nExpected: \"මම ගෙදර යමු\"\nActual: \"\"\nCoverage: Daily language usage | Future tense | S (≤30 characters) | Accuracy validation"
+                    },
+                    {
+                      "type": "warning",
+                      "description": "No output was generated"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4835,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:51:28.374Z",
+                      "annotations": [
+                        {
+                          "type": "test-result",
+                          "description": "Input: \"mama gedhara yamu\"\nExpected: \"මම ගෙදර යමු\"\nActual: \"\"\nCoverage: Daily language usage | Future tense | S (≤30 characters) | Accuracy validation"
+                        },
+                        {
+                          "type": "warning",
+                          "description": "No output was generated"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0b08bb464df112f08ad3-f54ae4ddbd93bf68ee88",
+              "file": "swifttranslator.test.js",
+              "line": 22,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0011: Common greeting - ayuboovan",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "test-result",
+                      "description": "Input: \"aayuboovan!\"\nExpected: \"ආයුබෝවන්!\"\nActual: \"\"\nCoverage: Greeting / request / response | Simple sentence | S (≤30 characters) | Accuracy validation"
+                    },
+                    {
+                      "type": "warning",
+                      "description": "No output was generated"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5089,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:51:33.223Z",
+                      "annotations": [
+                        {
+                          "type": "test-result",
+                          "description": "Input: \"aayuboovan!\"\nExpected: \"ආයුබෝවන්!\"\nActual: \"\"\nCoverage: Greeting / request / response | Simple sentence | S (≤30 characters) | Accuracy validation"
+                        },
+                        {
+                          "type": "warning",
+                          "description": "No output was generated"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0b08bb464df112f08ad3-97284660d87126e936e1",
+              "file": "swifttranslator.test.js",
+              "line": 22,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0012: Request with politeness",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "test-result",
+                      "description": "Input: \"mata udhavvak karanna puLuvandha?\"\nExpected: \"මට උදවුවක් කරන්න පුළුවන්ද?\"\nActual: \"\"\nCoverage: Greeting / request / response | Interrogative (question) | M (31–299 characters) | Accuracy validation"
+                    },
+                    {
+                      "type": "warning",
+                      "description": "No output was generated"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4801,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:51:38.334Z",
+                      "annotations": [
+                        {
+                          "type": "test-result",
+                          "description": "Input: \"mata udhavvak karanna puLuvandha?\"\nExpected: \"මට උදවුවක් කරන්න පුළුවන්ද?\"\nActual: \"\"\nCoverage: Greeting / request / response | Interrogative (question) | M (31–299 characters) | Accuracy validation"
+                        },
+                        {
+                          "type": "warning",
+                          "description": "No output was generated"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0b08bb464df112f08ad3-c624692759f50c48df80",
+              "file": "swifttranslator.test.js",
+              "line": 22,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0013: Plural form - we go",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "test-result",
+                      "description": "Input: \"api yanavaa\"\nExpected: \"අපි යනවා\"\nActual: \"\"\nCoverage: Daily language usage | Plural form | S (≤30 characters) | Accuracy validation"
+                    },
+                    {
+                      "type": "warning",
+                      "description": "No output was generated"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4935,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:51:43.149Z",
+                      "annotations": [
+                        {
+                          "type": "test-result",
+                          "description": "Input: \"api yanavaa\"\nExpected: \"අපි යනවා\"\nActual: \"\"\nCoverage: Daily language usage | Plural form | S (≤30 characters) | Accuracy validation"
+                        },
+                        {
+                          "type": "warning",
+                          "description": "No output was generated"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0b08bb464df112f08ad3-7b5a9e147bb49e9d8792",
+              "file": "swifttranslator.test.js",
+              "line": 22,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0014: Third person singular",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "test-result",
+                      "description": "Input: \"eyaa gedhara giyaa\"\nExpected: \"එයා ගෙදර ගියා\"\nActual: \"\"\nCoverage: Daily language usage | Plural form | S (≤30 characters) | Accuracy validation"
+                    },
+                    {
+                      "type": "warning",
+                      "description": "No output was generated"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4874,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:51:48.098Z",
+                      "annotations": [
+                        {
+                          "type": "test-result",
+                          "description": "Input: \"eyaa gedhara giyaa\"\nExpected: \"එයා ගෙදර ගියා\"\nActual: \"\"\nCoverage: Daily language usage | Plural form | S (≤30 characters) | Accuracy validation"
+                        },
+                        {
+                          "type": "warning",
+                          "description": "No output was generated"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0b08bb464df112f08ad3-6c1538e2407a919f9c27",
+              "file": "swifttranslator.test.js",
+              "line": 22,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0015: Very short input - hi",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "test-result",
+                      "description": "Input: \"hari\"\nExpected: \"හරි\"\nActual: \"\"\nCoverage: Daily language usage | Simple sentence | S (≤30 characters) | Accuracy validation"
+                    },
+                    {
+                      "type": "warning",
+                      "description": "No output was generated"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5110,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:51:52.983Z",
+                      "annotations": [
+                        {
+                          "type": "test-result",
+                          "description": "Input: \"hari\"\nExpected: \"හරි\"\nActual: \"\"\nCoverage: Daily language usage | Simple sentence | S (≤30 characters) | Accuracy validation"
+                        },
+                        {
+                          "type": "warning",
+                          "description": "No output was generated"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0b08bb464df112f08ad3-c10481487977e8f8b887",
+              "file": "swifttranslator.test.js",
+              "line": 22,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0016: Singlish with embedded English brand",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "test-result",
+                      "description": "Input: \"mata Zoom link ekak evanna\"\nExpected: \"මට Zoom link එකක් එවන්න\"\nActual: \"\"\nCoverage: Mixed Singlish + English | Simple sentence | S (≤30 characters) | Robustness validation"
+                    },
+                    {
+                      "type": "warning",
+                      "description": "No output was generated"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4973,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:51:58.106Z",
+                      "annotations": [
+                        {
+                          "type": "test-result",
+                          "description": "Input: \"mata Zoom link ekak evanna\"\nExpected: \"මට Zoom link එකක් එවන්න\"\nActual: \"\"\nCoverage: Mixed Singlish + English | Simple sentence | S (≤30 characters) | Robustness validation"
+                        },
+                        {
+                          "type": "warning",
+                          "description": "No output was generated"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0b08bb464df112f08ad3-1716ff35c7a26c5a46b7",
+              "file": "swifttranslator.test.js",
+              "line": 22,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0017: Email and technical terms mixed",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "test-result",
+                      "description": "Input: \"mata email ekak evanna puLuvandha\"\nExpected: \"මට email එකක් එවන්න පුළුවන්ද\"\nActual: \"\"\nCoverage: Mixed Singlish + English | Interrogative (question) | M (31–299 characters) | Robustness validation"
+                    },
+                    {
+                      "type": "warning",
+                      "description": "No output was generated"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4951,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:52:03.107Z",
+                      "annotations": [
+                        {
+                          "type": "test-result",
+                          "description": "Input: \"mata email ekak evanna puLuvandha\"\nExpected: \"මට email එකක් එවන්න පුළුවන්ද\"\nActual: \"\"\nCoverage: Mixed Singlish + English | Interrogative (question) | M (31–299 characters) | Robustness validation"
+                        },
+                        {
+                          "type": "warning",
+                          "description": "No output was generated"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0b08bb464df112f08ad3-0434325dbcc7fc973ef6",
+              "file": "swifttranslator.test.js",
+              "line": 22,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0018: Frequent phrase - I am happy",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "test-result",
+                      "description": "Input: \"mata sukha nisaa\"\nExpected: \"මට සුඛ නිසා\"\nActual: \"\"\nCoverage: Word combination / phrase pattern | Simple sentence | S (≤30 characters) | Accuracy validation"
+                    },
+                    {
+                      "type": "warning",
+                      "description": "No output was generated"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4908,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:52:08.074Z",
+                      "annotations": [
+                        {
+                          "type": "test-result",
+                          "description": "Input: \"mata sukha nisaa\"\nExpected: \"මට සුඛ නිසා\"\nActual: \"\"\nCoverage: Word combination / phrase pattern | Simple sentence | S (≤30 characters) | Accuracy validation"
+                        },
+                        {
+                          "type": "warning",
+                          "description": "No output was generated"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0b08bb464df112f08ad3-61f0d9677db72f17c961",
+              "file": "swifttranslator.test.js",
+              "line": 22,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0019: Multi-word expression with emphasis",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "test-result",
+                      "description": "Input: \"hari hari samahan\"\nExpected: \"හරි හරි සමහරන්\"\nActual: \"\"\nCoverage: Word combination / phrase pattern | Simple sentence | S (≤30 characters) | Accuracy validation"
+                    },
+                    {
+                      "type": "warning",
+                      "description": "No output was generated"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4868,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:52:12.997Z",
+                      "annotations": [
+                        {
+                          "type": "test-result",
+                          "description": "Input: \"hari hari samahan\"\nExpected: \"හරි හරි සමහරන්\"\nActual: \"\"\nCoverage: Word combination / phrase pattern | Simple sentence | S (≤30 characters) | Accuracy validation"
+                        },
+                        {
+                          "type": "warning",
+                          "description": "No output was generated"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0b08bb464df112f08ad3-b362c1c7e99b5515dc40",
+              "file": "swifttranslator.test.js",
+              "line": 22,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0020: Input with currency notation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "test-result",
+                      "description": "Input: \"Rs. 5000 dhaanay\"\nExpected: \"Rs. 5000 දනයි\"\nActual: \"\"\nCoverage: Punctuation / numbers | Simple sentence | S (≤30 characters) | Robustness validation"
+                    },
+                    {
+                      "type": "warning",
+                      "description": "No output was generated"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5144,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:52:17.877Z",
+                      "annotations": [
+                        {
+                          "type": "test-result",
+                          "description": "Input: \"Rs. 5000 dhaanay\"\nExpected: \"Rs. 5000 දනයි\"\nActual: \"\"\nCoverage: Punctuation / numbers | Simple sentence | S (≤30 characters) | Robustness validation"
+                        },
+                        {
+                          "type": "warning",
+                          "description": "No output was generated"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0b08bb464df112f08ad3-0edcedd3a307f7308d54",
+              "file": "swifttranslator.test.js",
+              "line": 22,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0021: Input with time format",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "test-result",
+                      "description": "Input: \"mama 7.30 AM yanna yaavee\"\nExpected: \"මම 7.30 AM යන්න යාවේ\"\nActual: \"\"\nCoverage: Punctuation / numbers | Simple sentence | M (31–299 characters) | Robustness validation"
+                    },
+                    {
+                      "type": "warning",
+                      "description": "No output was generated"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4787,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:52:23.032Z",
+                      "annotations": [
+                        {
+                          "type": "test-result",
+                          "description": "Input: \"mama 7.30 AM yanna yaavee\"\nExpected: \"මම 7.30 AM යන්න යාවේ\"\nActual: \"\"\nCoverage: Punctuation / numbers | Simple sentence | M (31–299 characters) | Robustness validation"
+                        },
+                        {
+                          "type": "warning",
+                          "description": "No output was generated"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0b08bb464df112f08ad3-87372c8685e25d5601a7",
+              "file": "swifttranslator.test.js",
+              "line": 22,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0022: Informal greeting - machan",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "test-result",
+                      "description": "Input: \"ela machan!\"\nExpected: \"එලා මචන්!\"\nActual: \"\"\nCoverage: Slang / informal language | Simple sentence | S (≤30 characters) | Robustness validation"
+                    },
+                    {
+                      "type": "warning",
+                      "description": "No output was generated"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4779,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:52:27.829Z",
+                      "annotations": [
+                        {
+                          "type": "test-result",
+                          "description": "Input: \"ela machan!\"\nExpected: \"එලා මචන්!\"\nActual: \"\"\nCoverage: Slang / informal language | Simple sentence | S (≤30 characters) | Robustness validation"
+                        },
+                        {
+                          "type": "warning",
+                          "description": "No output was generated"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0b08bb464df112f08ad3-72eaf9c6d793c1ee8c65",
+              "file": "swifttranslator.test.js",
+              "line": 22,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0023: Informal exclamation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "test-result",
+                      "description": "Input: \"adoo! samahan\"\nExpected: \"අදෝ! සමහරන්\"\nActual: \"\"\nCoverage: Slang / informal language | Simple sentence | S (≤30 characters) | Robustness validation"
+                    },
+                    {
+                      "type": "warning",
+                      "description": "No output was generated"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4873,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:52:32.618Z",
+                      "annotations": [
+                        {
+                          "type": "test-result",
+                          "description": "Input: \"adoo! samahan\"\nExpected: \"අදෝ! සමහරන්\"\nActual: \"\"\nCoverage: Slang / informal language | Simple sentence | S (≤30 characters) | Robustness validation"
+                        },
+                        {
+                          "type": "warning",
+                          "description": "No output was generated"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0b08bb464df112f08ad3-def5f96bc65fbb31cab5",
+              "file": "swifttranslator.test.js",
+              "line": 22,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0024: Medium length daily conversation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "test-result",
+                      "description": "Input: \"mama aaja office yanna kalin check karanna oonee. mama lunch eka kaala 1 pm eke yanna puluvan. oyaa enavadha ekka?\"\nExpected: \"මම අද office යන්න කලින් check කරන්න ඕනේ. මම lunch එක කාල 1 pm එකේ යන්න පුලුවන්. ඔයා එනවාද එක්ක?\"\nActual: \"\"\nCoverage: Daily language usage | Compound sentence | M (31–299 characters) | Accuracy validation"
+                    },
+                    {
+                      "type": "warning",
+                      "description": "No output was generated"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4808,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:52:37.500Z",
+                      "annotations": [
+                        {
+                          "type": "test-result",
+                          "description": "Input: \"mama aaja office yanna kalin check karanna oonee. mama lunch eka kaala 1 pm eke yanna puluvan. oyaa enavadha ekka?\"\nExpected: \"මම අද office යන්න කලින් check කරන්න ඕනේ. මම lunch එක කාල 1 pm එකේ යන්න පුලුවන්. ඔයා එනවාද එක්ක?\"\nActual: \"\"\nCoverage: Daily language usage | Compound sentence | M (31–299 characters) | Accuracy validation"
+                        },
+                        {
+                          "type": "warning",
+                          "description": "No output was generated"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0b08bb464df112f08ad3-2a8a371b5c3ca8dfcc0b",
+              "file": "swifttranslator.test.js",
+              "line": 22,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "Swift Translator - Negative Functional Tests",
+          "file": "swifttranslator.test.js",
+          "line": 71,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Neg_Fun_0001: Joined words without spaces - stress test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "test-result",
+                      "description": "Input: \"mamagedharayanavaa\"\nExpected Failure: \"Output will be incomplete or incorrect due to missing spaces\"\nActual Output: \"\"\nCoverage: Formatting (spaces / line breaks / paragraph) | Simple sentence | S (≤30 characters) | Robustness validation"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4953,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:52:42.317Z",
+                      "annotations": [
+                        {
+                          "type": "test-result",
+                          "description": "Input: \"mamagedharayanavaa\"\nExpected Failure: \"Output will be incomplete or incorrect due to missing spaces\"\nActual Output: \"\"\nCoverage: Formatting (spaces / line breaks / paragraph) | Simple sentence | S (≤30 characters) | Robustness validation"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0b08bb464df112f08ad3-98f72066641cf2c623a9",
+              "file": "swifttranslator.test.js",
+              "line": 80,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_0002: Multiple consecutive spaces",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "test-result",
+                      "description": "Input: \"mama    gedhara    yanavaa\"\nExpected Failure: \"System may not handle excessive spacing correctly\"\nActual Output: \"\"\nCoverage: Formatting (spaces / line breaks / paragraph) | Simple sentence | S (≤30 characters) | Robustness validation"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4831,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:52:47.280Z",
+                      "annotations": [
+                        {
+                          "type": "test-result",
+                          "description": "Input: \"mama    gedhara    yanavaa\"\nExpected Failure: \"System may not handle excessive spacing correctly\"\nActual Output: \"\"\nCoverage: Formatting (spaces / line breaks / paragraph) | Simple sentence | S (≤30 characters) | Robustness validation"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0b08bb464df112f08ad3-e08f4e31df4ef51bf348",
+              "file": "swifttranslator.test.js",
+              "line": 80,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_0003: Invalid Singlish character combination",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "test-result",
+                      "description": "Input: \"mama gXXdhara yanavaa\"\nExpected Failure: \"Invalid characters XX should not convert or cause unexpected output\"\nActual Output: \"\"\nCoverage: Typographical error handling | Simple sentence | S (≤30 characters) | Error handling / input validation"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4913,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:52:52.120Z",
+                      "annotations": [
+                        {
+                          "type": "test-result",
+                          "description": "Input: \"mama gXXdhara yanavaa\"\nExpected Failure: \"Invalid characters XX should not convert or cause unexpected output\"\nActual Output: \"\"\nCoverage: Typographical error handling | Simple sentence | S (≤30 characters) | Error handling / input validation"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0b08bb464df112f08ad3-63f0d9e0aecbc3159064",
+              "file": "swifttranslator.test.js",
+              "line": 80,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_0004: Mixed valid and invalid Singlish",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "test-result",
+                      "description": "Input: \"mama gedhara yanavaa XYZ\"\nExpected Failure: \"Mixed valid/invalid content may cause partial conversion or errors\"\nActual Output: \"\"\nCoverage: Typographical error handling | Compound sentence | M (31–299 characters) | Robustness validation"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4855,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:52:57.045Z",
+                      "annotations": [
+                        {
+                          "type": "test-result",
+                          "description": "Input: \"mama gedhara yanavaa XYZ\"\nExpected Failure: \"Mixed valid/invalid content may cause partial conversion or errors\"\nActual Output: \"\"\nCoverage: Typographical error handling | Compound sentence | M (31–299 characters) | Robustness validation"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0b08bb464df112f08ad3-a2a0343088a9cc7358d4",
+              "file": "swifttranslator.test.js",
+              "line": 80,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_0005: Very long input - robustness limit test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "test-result",
+                      "description": "Input: \"mama gedhara yanavaa. oyaa enavadha? api paasal yanavaa saha passe chithrapatayakuth balanavaa. oya enavaanam mama balan innavaa. vaessa unath api yanna epaeyi. mama sunaQQgu vunee maarga thadhabadhaya nisaa. dhitvaa suLi kuNaatuva samaGa aethi vuu gQQvathura saha naayayaeem heethuven maarga sQQvarDhana aDhikaariya sathu.\"\nExpected Failure: \"Very long input may cause system lag, incomplete conversion, or output truncation\"\nActual Output: \"\"\nCoverage: Daily language usage | Complex sentence | L (≥300 characters) | Robustness validation"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4845,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:53:01.908Z",
+                      "annotations": [
+                        {
+                          "type": "test-result",
+                          "description": "Input: \"mama gedhara yanavaa. oyaa enavadha? api paasal yanavaa saha passe chithrapatayakuth balanavaa. oya enavaanam mama balan innavaa. vaessa unath api yanna epaeyi. mama sunaQQgu vunee maarga thadhabadhaya nisaa. dhitvaa suLi kuNaatuva samaGa aethi vuu gQQvathura saha naayayaeem heethuven maarga sQQvarDhana aDhikaariya sathu.\"\nExpected Failure: \"Very long input may cause system lag, incomplete conversion, or output truncation\"\nActual Output: \"\"\nCoverage: Daily language usage | Complex sentence | L (≥300 characters) | Robustness validation"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0b08bb464df112f08ad3-6dadd1fb8773ed36f30e",
+              "file": "swifttranslator.test.js",
+              "line": 80,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_0006: Empty or whitespace-only input",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "test-result",
+                      "description": "Input: \"   \"\nExpected Failure: \"System should handle empty input gracefully, but may not\"\nActual Output: \"\"\nCoverage: Empty/cleared input handling | Simple sentence | S (≤30 characters) | Error handling / input validation"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4908,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:53:06.763Z",
+                      "annotations": [
+                        {
+                          "type": "test-result",
+                          "description": "Input: \"   \"\nExpected Failure: \"System should handle empty input gracefully, but may not\"\nActual Output: \"\"\nCoverage: Empty/cleared input handling | Simple sentence | S (≤30 characters) | Error handling / input validation"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0b08bb464df112f08ad3-c8da13b326f264254ddd",
+              "file": "swifttranslator.test.js",
+              "line": 80,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_0007: Numbers-only input",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "test-result",
+                      "description": "Input: \"12345\"\nExpected Failure: \"Numeric-only input should either remain unchanged or cause error\"\nActual Output: \"\"\nCoverage: Punctuation / numbers | Simple sentence | S (≤30 characters) | Error handling / input validation"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4806,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:53:11.681Z",
+                      "annotations": [
+                        {
+                          "type": "test-result",
+                          "description": "Input: \"12345\"\nExpected Failure: \"Numeric-only input should either remain unchanged or cause error\"\nActual Output: \"\"\nCoverage: Punctuation / numbers | Simple sentence | S (≤30 characters) | Error handling / input validation"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0b08bb464df112f08ad3-b76a90002e1a515a9bcc",
+              "file": "swifttranslator.test.js",
+              "line": 80,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_0008: Special characters and symbols",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "test-result",
+                      "description": "Input: \"@#$%^&*()\"\nExpected Failure: \"Special characters may not convert or may cause unexpected behavior\"\nActual Output: \"\"\nCoverage: Punctuation / numbers | Simple sentence | S (≤30 characters) | Robustness validation"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4813,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:53:16.498Z",
+                      "annotations": [
+                        {
+                          "type": "test-result",
+                          "description": "Input: \"@#$%^&*()\"\nExpected Failure: \"Special characters may not convert or may cause unexpected behavior\"\nActual Output: \"\"\nCoverage: Punctuation / numbers | Simple sentence | S (≤30 characters) | Robustness validation"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0b08bb464df112f08ad3-6191b1605bb069c4af3e",
+              "file": "swifttranslator.test.js",
+              "line": 80,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_0009: Mixed script - partial English input",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "test-result",
+                      "description": "Input: \"Hello world mama gedhara yanavaa\"\nExpected Failure: \"English text mixed with Singlish may not be handled correctly\"\nActual Output: \"\"\nCoverage: Mixed Singlish + English | Compound sentence | M (31–299 characters) | Robustness validation"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5269,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:53:21.321Z",
+                      "annotations": [
+                        {
+                          "type": "test-result",
+                          "description": "Input: \"Hello world mama gedhara yanavaa\"\nExpected Failure: \"English text mixed with Singlish may not be handled correctly\"\nActual Output: \"\"\nCoverage: Mixed Singlish + English | Compound sentence | M (31–299 characters) | Robustness validation"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0b08bb464df112f08ad3-030fbfa182c516f4f393",
+              "file": "swifttranslator.test.js",
+              "line": 80,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_0010: Repeated invalid patterns",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "test-result",
+                      "description": "Input: \"qqqq wwww xxxx yyyy zzzz\"\nExpected Failure: \"Repeated invalid character patterns should fail or produce errors\"\nActual Output: \"\"\nCoverage: Typographical error handling | Compound sentence | M (31–299 characters) | Robustness validation"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4855,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:53:26.600Z",
+                      "annotations": [
+                        {
+                          "type": "test-result",
+                          "description": "Input: \"qqqq wwww xxxx yyyy zzzz\"\nExpected Failure: \"Repeated invalid character patterns should fail or produce errors\"\nActual Output: \"\"\nCoverage: Typographical error handling | Compound sentence | M (31–299 characters) | Robustness validation"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0b08bb464df112f08ad3-cd3de2bda0ff1bd9be65",
+              "file": "swifttranslator.test.js",
+              "line": 80,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "Swift Translator - UI Tests",
+          "file": "swifttranslator.test.js",
+          "line": 114,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Pos_UI_0001: Real-time Sinhala output updates while typing",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "error",
+                      "description": "UI test error: locator.inputValue: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('textarea').nth(1)\u001b[22m\n"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 19586,
+                      "error": {
+                        "message": "TimeoutError: locator.inputValue: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('textarea').nth(1)\u001b[22m\n",
+                        "stack": "TimeoutError: locator.inputValue: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('textarea').nth(1)\u001b[22m\n\n    at C:\\Users\\menuw\\OneDrive\\Desktop\\ASssigment_1\\playwright-tests\\tests\\swifttranslator.test.js:140:53",
+                        "location": {
+                          "file": "C:\\Users\\menuw\\OneDrive\\Desktop\\ASssigment_1\\playwright-tests\\tests\\swifttranslator.test.js",
+                          "column": 53,
+                          "line": 140
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 138 |\u001b[39m           \u001b[90m// Check if output updates after typing several characters\u001b[39m\n \u001b[90m 139 |\u001b[39m           \u001b[36mif\u001b[39m (i \u001b[33m>\u001b[39m \u001b[35m5\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 140 |\u001b[39m             \u001b[36mconst\u001b[39m currentOutput \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m outputField\u001b[33m.\u001b[39minputValue()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 141 |\u001b[39m             \u001b[36mif\u001b[39m (currentOutput \u001b[33m&&\u001b[39m currentOutput\u001b[33m.\u001b[39mlength \u001b[33m>\u001b[39m \u001b[35m0\u001b[39m) {\n \u001b[90m 142 |\u001b[39m               \u001b[90m// Output is updating in real-time\u001b[39m\n \u001b[90m 143 |\u001b[39m               expect(currentOutput\u001b[33m.\u001b[39mlength)\u001b[33m.\u001b[39mtoBeGreaterThan(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\menuw\\OneDrive\\Desktop\\ASssigment_1\\playwright-tests\\tests\\swifttranslator.test.js",
+                            "column": 53,
+                            "line": 140
+                          },
+                          "message": "TimeoutError: locator.inputValue: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('textarea').nth(1)\u001b[22m\n\n\n\u001b[0m \u001b[90m 138 |\u001b[39m           \u001b[90m// Check if output updates after typing several characters\u001b[39m\n \u001b[90m 139 |\u001b[39m           \u001b[36mif\u001b[39m (i \u001b[33m>\u001b[39m \u001b[35m5\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 140 |\u001b[39m             \u001b[36mconst\u001b[39m currentOutput \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m outputField\u001b[33m.\u001b[39minputValue()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 141 |\u001b[39m             \u001b[36mif\u001b[39m (currentOutput \u001b[33m&&\u001b[39m currentOutput\u001b[33m.\u001b[39mlength \u001b[33m>\u001b[39m \u001b[35m0\u001b[39m) {\n \u001b[90m 142 |\u001b[39m               \u001b[90m// Output is updating in real-time\u001b[39m\n \u001b[90m 143 |\u001b[39m               expect(currentOutput\u001b[33m.\u001b[39mlength)\u001b[33m.\u001b[39mtoBeGreaterThan(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\menuw\\OneDrive\\Desktop\\ASssigment_1\\playwright-tests\\tests\\swifttranslator.test.js:140:53\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:53:31.464Z",
+                      "annotations": [
+                        {
+                          "type": "error",
+                          "description": "UI test error: locator.inputValue: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('textarea').nth(1)\u001b[22m\n"
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\menuw\\OneDrive\\Desktop\\ASssigment_1\\playwright-tests\\test-results\\swifttranslator-Swift-Tran-a9d9c-output-updates-while-typing-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\menuw\\OneDrive\\Desktop\\ASssigment_1\\playwright-tests\\test-results\\swifttranslator-Swift-Tran-a9d9c-output-updates-while-typing-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\menuw\\OneDrive\\Desktop\\ASssigment_1\\playwright-tests\\test-results\\swifttranslator-Swift-Tran-a9d9c-output-updates-while-typing-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\menuw\\OneDrive\\Desktop\\ASssigment_1\\playwright-tests\\tests\\swifttranslator.test.js",
+                        "column": 53,
+                        "line": 140
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "0b08bb464df112f08ad3-0bf58111eb68cae83c89",
+              "file": "swifttranslator.test.js",
+              "line": 122,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-01-31T15:50:42.777Z",
+    "duration": 188374.808,
+    "expected": 34,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}
